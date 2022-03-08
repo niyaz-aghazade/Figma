@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@media (min-width : 375px) and (max-width: 830px) {
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        position: relative;
+        font-family: 'Roboto';
+        width: 375px;
+        height: 776px;
+        margin-left : 36px;
+        margin-top : 56px;
+        background: #FFFFFF; 
+    }
+
+    .header {
+        width: 170px;
+        height: 44px;
+    }
+
+    .header h1{
+        font-family: 'Roboto Slab';
+        font-size: 26px;
+        line-height: 102%;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-info {
+        width: 309px;
+        height: 175px;
+        margin-bottom: 60px;
+    }
+
+    .main-info p {
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .img {
+        width: 172px;
+        height: 162px;
+        margin-left: 65px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bottom-info {
+        margin : 33px 40px 0 0;
+    }
+
+    .bottom-info h1{
+        width: 70px;
+        height: 18px;
+        margin-bottom: -10px;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    
+    .bottom-info p {
+        width: 86px;
+        height: 18px;
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .bottom-img {
+        display: none;
+    }
+} 
+
+@media (min-width: 830px) and (max-width : 1400px) {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        position: relative;
+        font-family: 'Roboto';
+        width: 834px;
+        height: 633px;
+        margin-left : 72px;
+        margin-top : 56px;
+    }
+
+    .header h1{
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4vw;
+        line-height: 101.38%;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .main-info {
+        width: 40vw;
+        height: 20px;
+    }
+
+    .main-info p {
+        font-size: 1.5vw;
+        line-height: 150%;
+    }
+
+    .img {
+        width: 20vw;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .bottom {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bottom-info {
+        margin : 70px 40px 0 0;
+    }
+
+    .bottom-info h1{
+        width: 87px;
+        height: 23px;
+        margin-bottom: -10px;
+        font-size: 1.5vw;
+        line-height: 130%;
+    }
+
+    .bottom-info p {
+        width: 88px;
+        height: 23px;
+        font-size: 1.2vw;
+        line-height: 130%;
+    }
+
+    .bottom-info {
+        width: 110px;
+        height: 23px;
+    }
+
+    .bottom-img {
+        display: none;
+    }
+} 
+
+@media  (min-width : 1400px){
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container {
+        position: relative;
+        font-family: 'Roboto';
+        width: 1440px;
+        height: 1046px;
+        margin-left : 124px;
+        margin-top : 91px;
+    }
+
+    .header {
+        width: 365px;
+        height: 93px;
+    }
+
+    .header h1{
+        font-family: 'Roboto Slab';
+        font-size: 55px;
+        line-height: 101.38%;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-info {
+        width: 662px;
+        height: 374px;
+    }
+
+    .main-info p {
+        font-size: 24px;
+        line-height: 150%;
+    }
+
+    .img {
+        width: 366px;
+        height: 344px;
+        margin-left: 164px;
+        margin-top: 25px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 94px;
+    }
+
+    .bottom-info {
+        margin: 70px 95px 0 0;
+    }
+
+    .bottom-info h1{
+        width: 150px;
+        height: 39px;
+        margin-bottom: -10px;
+        font-size: 25px;
+        line-height: 130%;
+    }
+
+    .bottom-info p {
+        width: 150px;
+        height: 39px;
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .bottom-img {
+        width: 232px;
+        height: 219px;
+        margin-right: 132px;
+    }
+
+}
